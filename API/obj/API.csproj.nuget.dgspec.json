@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\practicing\\APi\\DatingApp\\API\\API.csproj": {}
+    "D:\\practicing\\APi\\DatingApp-Api-Angular\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\practicing\\APi\\DatingApp\\API\\API.csproj": {
+    "D:\\practicing\\APi\\DatingApp-Api-Angular\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\practicing\\APi\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\practicing\\APi\\DatingApp-Api-Angular\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\practicing\\APi\\DatingApp\\API\\API.csproj",
+        "projectPath": "D:\\practicing\\APi\\DatingApp-Api-Angular\\API\\API.csproj",
         "packagesPath": "C:\\Users\\bsaeed\\.nuget\\packages\\",
-        "outputPath": "D:\\practicing\\APi\\DatingApp\\API\\obj\\",
+        "outputPath": "D:\\practicing\\APi\\DatingApp-Api-Angular\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bsaeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
@@ -58,6 +62,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.0, )"
             }
           },
           "imports": [

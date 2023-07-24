@@ -1,4 +1,6 @@
-<h1>{{title}}</h1>
-<ul>
-  <li *ngFor="let user of users">{{user | json}}</li>
-</ul>
+<app-navbar></app-navbar>
+<div class="container" style="margin-top:100px">
+  <ul>
+    <li *ngFor="let user of users">{{user | json}}</li>
+  </ul>
+</div>
